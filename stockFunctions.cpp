@@ -9,7 +9,7 @@ double percentChange(const std::vector<double>& values, int startDay,
   double start = values[startDay];
   double end = values[endDay];
 
-  return (end - start) / start;
+  return ((end - start) / start;
 }
 
 double highestValue(const std::vector<double>& values, int startDay, int endDay)

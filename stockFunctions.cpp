@@ -3,20 +3,28 @@
 #include <string>
 #include <vector>
 
-double percentChange(const std::vector<double>& values, int startDay, int endDay){
-return 0.0;
-}
-
-double highestValue(const std::vector<double>& values, int startDay, int endDay) {
+double percentChange(const std::vector<double>& values, int startDay,
+                     int endDay)
+{
   return 0.0;
 }
 
-double average(const std::vector<double>& values, int startDay, int endDay) {
+double highestValue(const std::vector<double>& values, int startDay, int endDay)
+{
   return 0.0;
 }
 
-double standardDev(const std::vector<double>& values, int startDay, int endDay) {
+double average(const std::vector<double>& values, int startDay, int endDay)
+{
+  return 0.0;
+}
+
+double standardDev(const std::vector<double>& values, int startDay, int endDay)
+{
   return 0.0;
 }
 
 std::vector<double> parseData(const std::string& csv)
+{
+  return {};
+}

@@ -11,4 +11,12 @@ double highestValue(const std::vector<double>& values, int startDay, int endDay)
   return 0.0;
 }
 
+double average(const std::vector<double>& values, int startDay, int endDay) {
+  return 0.0;
+}
 
+double standardDev(const std::vector<double>& values, int startDay, int endDay) {
+  return 0.0;
+}
+
+std::vector<double> parseData(const std::string& csv)

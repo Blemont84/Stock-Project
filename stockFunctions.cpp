@@ -44,7 +44,7 @@ double standardDev(const std::vector<double>& values, int startDay, int endDay)
 std::vector<double> parseData(const std::string& csv)
 {
   std::vector<double> result;
-  
+  std::string current;
 }
 
 std::vector<double> getChangeVector(const std::vector<double>& values)

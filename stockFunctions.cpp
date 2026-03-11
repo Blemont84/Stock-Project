@@ -83,5 +83,10 @@ std::vector<double> getChangeVector(const std::vector<double>& values)
 
 double maxDrawdown(const std::vector<double>& values, int startDay, int endDay)
 {
-  return 0.0;
+  double peak = values[startDay];
+  double maxDrop = 0.0;
+
+  for (int i = startDay; i <= endDay; i++) {
+    
+  }
 }

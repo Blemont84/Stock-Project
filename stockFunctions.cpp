@@ -53,7 +53,7 @@ std::vector<double> getChangeVector(const std::vector<double>& values)
   changes.push_back(0);
 
   for (int i = 1; i < values.size(); i++) {
-    
+    changes.push_back()
   }
 }
 

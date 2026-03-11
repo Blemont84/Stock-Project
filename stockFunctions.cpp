@@ -6,6 +6,11 @@
 double percentChange(const std::vector<double>& values, int startDay,
                      int endDay)
 {
+ return 0.0;
+}
+
+double highestValue(const std::vector<double>& values, int startDay, int endDay)
+{
   double highest = values[startDay];
 
   for (int i = startDay; i <= endDay; i++) {
@@ -14,11 +19,6 @@ double percentChange(const std::vector<double>& values, int startDay,
     }
   }
   return highest;
-}
-
-double highestValue(const std::vector<double>& values, int startDay, int endDay)
-{
-  return 0.0;
 }
 
 double average(const std::vector<double>& values, int startDay, int endDay)

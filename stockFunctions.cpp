@@ -51,7 +51,11 @@ std::vector<double> parseData(const std::string& csv)
       result.push_back(std::stod(current));
       current = "";
     }
+    else {
+      current += c;
+    }
   }
+  result.push_back
 }
 
 std::vector<double> getChangeVector(const std::vector<double>& values)

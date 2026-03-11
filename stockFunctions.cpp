@@ -87,6 +87,8 @@ double maxDrawdown(const std::vector<double>& values, int startDay, int endDay)
   double maxDrop = 0.0;
 
   for (int i = startDay; i <= endDay; i++) {
-    
+    if (values[i] > peak) {
+      peak = values[i];
+    }
   }
 }

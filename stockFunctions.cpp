@@ -90,5 +90,9 @@ double maxDrawdown(const std::vector<double>& values, int startDay, int endDay)
     if (values[i] > peak) {
       peak = values[i];
     }
+    double drop = values[i] - peak;
+    if (drop < maxDrop) {
+      maxDrop = drop;
+    }
   }
 }

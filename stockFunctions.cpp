@@ -44,7 +44,7 @@ double standardDev(const std::vector<double>& values, int startDay, int endDay)
   for (int i = startDay; i <= endDay; i++) {
 
     double diff = values[i] - avg;
-    sumSquareDiffs += diff * diff;
+    sumSquaredDiffs += diff * diff;
     }
     int count = endDay - startDay + 1;
     double variance = sumSquaredDiffs / count;

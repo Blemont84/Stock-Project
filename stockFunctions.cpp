@@ -6,7 +6,13 @@
 double percentChange(const std::vector<double>& values, int startDay,
                      int endDay)
 {
-  return 0.0;
+  double highest = values[startday];
+
+  for (int i = startDay; i <= endDay; i++) {
+    if (values[i] > highest) {
+      
+    }
+  }
 }
 
 double highestValue(const std::vector<double>& values, int startDay, int endDay)

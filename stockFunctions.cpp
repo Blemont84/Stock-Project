@@ -49,7 +49,8 @@ std::vector<double> parseData(const std::string& csv)
 std::vector<double> getChangeVector(const std::vector<double>& values)
 {
   std::vector<double> changes;
-  
+
+  changes.push_back(0);
 }
 
 double maxDrawdown(const std::vector<double>& values, int startDay, int endDay)

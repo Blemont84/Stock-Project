@@ -23,7 +23,11 @@ double highestValue(const std::vector<double>& values, int startDay, int endDay)
 
 double average(const std::vector<double>& values, int startDay, int endDay)
 {
-  return 0.0;
+  double sum = 0.0;
+
+  for (int i = startDay; i <= endDay; i++) {
+    
+  }
 }
 
 double standardDev(const std::vector<double>& values, int startDay, int endDay)

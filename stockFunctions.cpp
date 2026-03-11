@@ -48,7 +48,7 @@ std::vector<double> parseData(const std::string& csv)
 
   for (char c : csv) {
     if (c == ',') {
-      result.push_back()
+      result.push_back(std::stod(current)
     }
   }
 }

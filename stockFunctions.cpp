@@ -38,7 +38,8 @@ double average(const std::vector<double>& values, int startDay, int endDay)
 
 double standardDev(const std::vector<double>& values, int startDay, int endDay)
 {
-  return 0.0;
+  double avg = average(values, startDay, endDay);
+  double sumSquaredDiffs = 0.0;
 }
 
 std::vector<double> parseData(const std::string& csv)

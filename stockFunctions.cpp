@@ -28,3 +28,13 @@ std::vector<double> parseData(const std::string& csv)
 {
   return {};
 }
+
+std::vector<double> getChangeVector(const std::vector<double>& values)
+{
+  return {};
+}
+
+double maxDrawdown(const std::vector<double>& values, int startDay, int endDay)
+{
+  return 0.0;
+}

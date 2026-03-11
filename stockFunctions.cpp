@@ -42,7 +42,11 @@ double standardDev(const std::vector<double>& values, int startDay, int endDay)
   double sumSquaredDiffs = 0.0;
 
   for (int i = startDay; i <= endDay; i++) {
+
+    double diff = values[i] - avg;
+    sumSquareDiffs += diff * diff;
     }
+    int count = endDay - startDay + 1;
 }
 
 std::vector<double> parseData(const std::string& csv)

@@ -6,7 +6,7 @@
 double percentChange(const std::vector<double>& values, int startDay,
                      int endDay)
 {
- return 0.0;
+  return 0.0;
 }
 
 double highestValue(const std::vector<double>& values, int startDay, int endDay)
@@ -28,7 +28,9 @@ double average(const std::vector<double>& values, int startDay, int endDay)
   for (int i = startDay; i <= endDay; i++) {
     sum += values[i];
   }
-  int count 
+  int count = endDay - startDay + 1;
+
+  return sum / count;
 }
 
 double standardDev(const std::vector<double>& values, int startDay, int endDay)

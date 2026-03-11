@@ -47,6 +47,9 @@ double standardDev(const std::vector<double>& values, int startDay, int endDay)
     sumSquareDiffs += diff * diff;
     }
     int count = endDay - startDay + 1;
+    double variance = sumSquaredDiffs / count;
+
+    reutrn std::sqrt(variance);
 }
 
 std::vector<double> parseData(const std::string& csv)

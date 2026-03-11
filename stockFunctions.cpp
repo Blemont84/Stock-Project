@@ -50,12 +50,11 @@ std::vector<double> parseData(const std::string& csv)
     if (c == ',') {
       result.push_back(std::stod(current));
       current = "";
-    }
-    else {
+    } else {
       current += c;
     }
   }
-  result.push_back(std::stod(current));  
+  result.push_back(std::stod(current));
 
   return result;
 }

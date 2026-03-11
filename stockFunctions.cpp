@@ -28,6 +28,7 @@ double average(const std::vector<double>& values, int startDay, int endDay)
   for (int i = startDay; i <= endDay; i++) {
     sum += values[i];
   }
+  int count 
 }
 
 double standardDev(const std::vector<double>& values, int startDay, int endDay)
